@@ -143,7 +143,7 @@
             disp.innerHTML = reader.result;
           }
           // readAsTextメソッドでファイルの内容を取得
-          reader.readAsText(f, 'shift-jis');
+          reader.readAsText(f, 'utf-8');
         }
       }
       // ⑥ブラウザ上でファイルを展開する挙動を抑止
